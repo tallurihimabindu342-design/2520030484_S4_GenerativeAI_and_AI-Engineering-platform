@@ -1,0 +1,260 @@
+question,expected_complexity,model,run,response_time,load_time,tokens_per_sec,input_tokens,output_tokens,total_tokens,done_reason,answer
+What is Python?,Easy,llama3.2:1b,1,7.91,0.01,15.5,39,82,121,stop,"Python is a high-level, interpreted programming language known for its simplicity, readability, and ease of use. It was created in the late 1980s by Guido van Rossum and is widely used for various purposes, including web development, scientific computing, data analysis, artificial intelligence, and more. Python's syntax is concise and flexible, making it a popular choice for beginners and experienced developers alike."
+What is the capital of France?,Easy,llama3.2:1b,1,3.09,0.01,9.0,42,8,50,stop,The capital of France is Paris.
+Define machine learning.,Easy,llama3.2:1b,1,7.77,0.01,14.3,39,77,116,stop,"Machine learning is a subset of artificial intelligence that involves training algorithms to learn from data, identify patterns, and make predictions or decisions without being explicitly programmed. It involves feeding data into a model, allowing it to learn and improve its performance over time, and using the learned patterns to make predictions or take actions. This enables machines to autonomously improve their performance and adapt to new situations."
+How many days are in a leap year?,Easy,llama3.2:1b,1,6.56,0.01,14.2,44,60,104,stop,"There are 366 days in a leap year. Leap years occur every 4 years, adding an extra day to February, making it a 29-day month instead of the usual 28 days. This extra day is added to keep our calendar aligned with the Earth's orbit around the Sun."
+How are you today?,Easy,llama3.2:1b,1,5.82,0.01,13.5,40,47,87,stop,"I'm just a computer program, so I don't have feelings or emotions like humans do. However, I'm functioning properly and ready to assist you with any questions or tasks you may have. How can I help you today?"
+What is a variable in programming?,Easy,llama3.2:1b,1,7.6,0.02,15.4,42,81,123,stop,"In programming, a variable is a named storage location that holds a value. It's a container that can hold different types of data, such as numbers, text, or other variables. Variables are used to store and manipulate data in a program, allowing for flexibility and reuse of code. They are essential for organizing and managing data in a program, making it easier to write, debug, and maintain."
+Convert 5 kilometers to miles.,Easy,llama3.2:1b,1,4.73,0.01,14.2,42,34,76,stop,"To convert 5 kilometers to miles, divide by 1.60934. 5 km ÷ 1.60934 ≈ 3.106 miles."
+What is HTTP?,Easy,llama3.2:1b,1,8.59,0.02,13.3,39,83,122,stop,"HTTP stands for Hypertext Transfer Protocol. It's a communication standard used for transferring data over the internet. HTTP requests are sent from a client (e.g., a web browser) to a server, and the server responds with the requested data. The protocol defines how data is formatted, transmitted, and received, enabling communication between web servers and clients. It's a fundamental technology for web development and online interactions."
+Name three primary colors.,Easy,llama3.2:1b,1,7.65,0.01,16.1,40,87,127,stop,"The three primary colors are red, blue, and yellow. These colors cannot be created by mixing other colors together, and they are the base colors used to create all other colors. They are the foundation of the color wheel and are used in art, design, and printing. Red, blue, and yellow are the primary colors because they have the most intense and vibrant properties, making them ideal for creating a wide range of colors."
+What is the largest planet in our solar system?,Easy,llama3.2:1b,1,7.2,0.01,15.5,45,73,118,stop,"The largest planet in our solar system is Jupiter. It is a gas giant, with a diameter of approximately 142,984 kilometers (88,846 miles). Jupiter is more than 1,300 times the diameter of Earth and has a mass 318 times that of our planet. Its massive size and stormy atmosphere make it a fascinating and unique world."
+Explain how neural networks work.,Medium,llama3.2:1b,1,8.39,0.01,14.5,42,88,130,stop,"Neural networks work by mimicking the human brain's structure and function. They consist of layers of interconnected nodes (neurons) that process and transmit information. Each node applies a weighted sum of its inputs, applying non-linear transformations through activation functions. This process allows the network to learn patterns and make predictions or decisions. The network's performance is evaluated by comparing its predictions to actual outcomes, adjusting the weights and biases to improve accuracy."
+What is the difference between a list and a tuple in Python?,Medium,llama3.2:1b,1,8.89,0.01,14.7,48,95,143,stop,"In Python, a list and a tuple are both collections of items, but they have some key differences:
+
+* A list is mutable, meaning its contents can be changed after creation.
+* A tuple is immutable, meaning its contents cannot be changed after creation.
+* Lists are indexed, allowing for direct access to elements using square brackets (e.g., `my_list[0]`).
+* Tuples are also indexed, but their elements are immutable and cannot be changed."
+Why is the sky blue?,Medium,llama3.2:1b,1,7.36,0.01,15.4,41,76,117,stop,"The sky appears blue because of a phenomenon called Rayleigh scattering, named after the British physicist Lord Rayleigh. When sunlight enters Earth's atmosphere, it encounters tiny molecules of gases such as nitrogen and oxygen. These molecules scatter the shorter, blue wavelengths of light more than the longer, red wavelengths, giving the sky its blue color. This effect is more pronounced during the daytime."
+Describe how a hash table works.,Medium,llama3.2:1b,1,8.5,0.01,14.6,42,90,132,stop,"A hash table is a data structure that stores key-value pairs in an array using a hash function to map keys to indices. When a key is inserted, the hash function calculates the index by taking the modulus of the key's hash value with the array size. If the key already exists, its value is updated. The hash table allows for efficient lookup, insertion, and deletion of elements with a time complexity of O(1) on average."
+Explain the advantages of using Git.,Medium,llama3.2:1b,1,7.57,0.01,14.2,43,73,116,stop,"Git offers several advantages, including:
+
+- Version control, allowing for changes to be tracked and reverted
+- Collaboration, enabling multiple users to work on the same project simultaneously
+- Flexibility, allowing for easy branching and merging of code
+- Security, providing a secure and tamper-proof record of changes
+- Scalability, supporting large and complex projects with ease"
+How does HTTPS keep data secure?,Medium,llama3.2:1b,1,8.26,0.01,14.3,42,84,126,stop,"HTTPS (Hypertext Transfer Protocol Secure) encrypts data in transit by using a secure protocol to protect it from interception and eavesdropping. This ensures that data remains confidential and cannot be read by unauthorized parties. HTTPS uses encryption keys to scramble data, making it unreadable to anyone without the correct decryption key. This protects sensitive information, such as passwords and credit card numbers, from being intercepted or stolen."
+Summarize the causes of the French Revolution.,Medium,llama3.2:1b,1,9.63,0.01,14.1,45,102,147,stop,"The French Revolution was caused by a combination of factors, including:
+
+* Financial crisis and heavy taxation, leading to widespread discontent
+* Social inequality and the nobility's privileges
+* Enlightenment ideas of liberty, equality, and fraternity inspiring the people
+* The burden of the Seven Years' War and the resulting debt
+* The influence of the American and Dutch Revolutions, which showed that people could overthrow monarchies
+* The Estates-General of 1789, which failed to address the people's grievances."
+What is the difference between supervised and unsupervised learning?,Medium,llama3.2:1b,1,8.34,0.01,15.5,47,92,139,stop,"In machine learning, supervised learning involves training a model on labeled data, where the correct output is already known. The model learns to predict the output based on the input data. In contrast, unsupervised learning involves training a model on unlabeled data, where the model learns to identify patterns or relationships. Unsupervised learning is often used for clustering, dimensionality reduction, and anomaly detection. Supervised learning is typically used for classification and regression tasks."
+How do vaccines train the immune system?,Medium,llama3.2:1b,1,8.7,0.01,14.5,43,92,135,stop,"Vaccines train the immune system by introducing a small, harmless piece of a pathogen (like a virus or bacteria) to stimulate an immune response. The immune system recognizes the piece as foreign and mounts a defense, producing antibodies and activating immune cells to fight the actual pathogen. This process helps build immunity and provides long-term protection against future infections. The immune system remembers the specific pathogen, making it easier to respond if it's exposed again."
+What are the main reasons people switch from Windows to Linux?,Medium,llama3.2:1b,1,9.06,0.01,14.3,47,96,143,stop,"People switch from Windows to Linux for various reasons, including:
+
+- Security: Linux is generally more secure than Windows, with fewer malware threats.
+- Customizability: Linux offers more flexibility in terms of customization and configuration.
+- Cost: Linux is free or low-cost, while Windows requires a license fee.
+- Control: Linux users have more control over their system and data.
+- Community: Linux has a large and active community, with many resources available for learning and troubleshooting."
+Design an optimized machine learning algorithm.,Complex,llama3.2:1b,1,11.47,0.01,15.0,42,137,179,stop,"I can provide a general outline of an optimized machine learning algorithm. Here's a simplified example:
+
+1. **Data Preprocessing**: Handle missing values, scale/normalize features, and split data into training and testing sets.
+2. **Model Selection**: Choose a suitable algorithm (e.g., decision tree, random forest, neural network) based on feature types and data complexity.
+3. **Hyperparameter Tuning**: Optimize model parameters using grid search, random search, or Bayesian optimization.
+4. **Model Evaluation**: Assess model performance using metrics (e.g., accuracy, precision, recall).
+5. **Deployment**: Deploy trained model in production, monitoring and updating as needed."
+Implement a Python function that finds the longest palindromic substring and explain its time complexity.,Complex,llama3.2:1b,1,15.91,0.01,14.9,54,200,254,length,"Here's a Python function that finds the longest palindromic substring:
+
+```python
+def longest_palindrome(s):
+    def expand_around_center(s, left, right):
+        while left >= 0 and right < len(s) and s[left] == s[right]:
+            left -= 1
+            right += 1
+        return s[left + 1:right]
+
+    longest = """"
+    for i in range(len(s)):
+        palindrome1 = expand_around_center(s, i, i)
+        palindrome2 = expand_around_center(s, i, i + 1)
+        longest = max(longest, palindrome1, palindrome2, key=len)
+
+    return longest
+
+# Example usage:
+print(longest_palindrome(""babad""))  # Output: ""bab""
+print(longest_palindrome(""cbbd""))   # Output: ""bb""
+```
+
+The time complexity of this function is O(n^2), where n is the length of the input string"
+Compare REST and GraphQL for a large mobile app backend and recommend one.,Complex,llama3.2:1b,1,7.4,0.01,14.6,49,72,121,stop,"For a large mobile app backend, I recommend GraphQL over REST. GraphQL provides more efficient data retrieval and manipulation, as it allows for lazy loading and caching. It also enables more flexible and efficient data modeling, making it easier to manage complex data relationships. Additionally, GraphQL supports subscriptions, enabling real-time updates and notifications, which are essential for a mobile app."
+"Debug this code: def add(a, b): return a - b",Complex,llama3.2:1b,1,8.8,0.01,14.6,49,92,141,stop,"The code is attempting to subtract `b` from `a` and return the result. However, it's using the `-` operator, which is for subtraction in Python, not addition. To fix this, you should use the `+` operator for addition. Here's the corrected code:
+
+```python
+def add(a, b): return a + b
+```
+
+This will correctly add `a` and `b` and return the result."
+Develop a plan to migrate a monolithic application to microservices.,Complex,llama3.2:1b,1,10.28,0.02,15.4,48,118,166,stop,"To migrate a monolithic application to microservices, follow this plan:
+
+1. **Assess and document**: Evaluate the application's architecture, identify microservices, and document their responsibilities.
+2. **Refactor and modularize**: Break down monolithic components into smaller, independent services.
+3. **Implement API gateways**: Create API gateways to manage communication between services.
+4. **Integrate services**: Integrate services using APIs, message queues, or event-driven architecture.
+5. **Test and deploy**: Test and deploy individual services, then integrate them into the overall system."
+Analyze the trade-offs between SQL and NoSQL databases for a real-time analytics platform.,Complex,llama3.2:1b,1,8.49,0.01,14.6,53,87,140,stop,"For a real-time analytics platform, SQL databases offer better data consistency and query performance, making them suitable for transactional data. However, they can be inflexible and require additional processing power for real-time analytics. NoSQL databases, on the other hand, provide faster query times and scalability, but may lack data consistency and require additional indexing for real-time analytics. A hybrid approach combining SQL and NoSQL could be the most suitable."
+Evaluate the pros and cons of using transformers versus RNNs for time-series forecasting.,Complex,llama3.2:1b,1,8.5,0.01,14.5,52,87,139,stop,"Transformers and RNNs are both suitable for time-series forecasting, but they have different strengths. RNNs excel in handling sequential data, but struggle with long-term dependencies. Transformers, on the other hand, are better suited for handling complex relationships between time steps. However, they require more computational resources and may not perform well with high-dimensional data. A hybrid approach combining RNNs and transformers may offer the best results."
+"Plan a three-day study schedule covering calculus, linear algebra, and probability, balancing difficulty and revision time.",Complex,llama3.2:1b,1,10.4,0.01,14.9,56,117,173,stop,"Here's a suggested three-day study schedule:
+
+Day 1: Calculus (2 hours) + Linear Algebra (2 hours) = 4 hours. Focus on review of differential and integral calculus, and linear algebra concepts.
+
+Day 2: Probability (3 hours) + Review of Calculus (2 hours) = 5 hours. Review probability concepts, and then focus on calculus topics.
+
+Day 3: Practice problems (4 hours) + Review of Linear Algebra (2 hours) = 6 hours. Practice problems for all three subjects, and review linear algebra concepts."
+Prove that the square root of 2 is irrational.,Complex,llama3.2:1b,1,12.44,0.01,15.0,47,150,197,stop,"To prove that the square root of 2 is irrational, we can use a proof by contradiction. Assume that √2 is rational, then it can be expressed as a fraction a/b (where a and b are integers and b ≠ 0). Square both sides to get 2 = a^2/b^2. Multiply both sides by b^2 to get 2b^2 = a^2. Since a^2 and b^2 are both even, they must both be divisible by 4. This implies that b^2 is divisible by 4, so b is divisible by 2. Therefore, a is also divisible by 2, which contradicts the assumption that a/b is in its simplest form."
+Write a Python class for an LRU cache and describe its complexity.,Complex,llama3.2:1b,1,14.38,0.01,15.1,49,180,229,stop,"Here's a Python class for an LRU (Least Recently Used) cache:
+
+```python
+from collections import OrderedDict
+
+class LRUCache:
+    def __init__(self, capacity):
+        self.capacity = capacity
+        self.cache = OrderedDict()
+
+    def get(self, key):
+        if key in self.cache:
+            value = self.cache.pop(key)
+            self.cache[key] = value  # move to end
+            return value
+        return None
+
+    def put(self, key, value):
+        if key in self.cache:
+            self.cache.pop(key)
+        elif len(self.cache) >= self.capacity:
+            self.cache.popitem(last=False)  # remove oldest item
+        self.cache[key] = value
+```
+
+Complexity analysis:
+
+- `__init__`: O(1)
+- `get`: O(1)
+- `put`: O(1)"
+What is Python?,Easy,llama3.2:3b,1,12.25,0.03,9.7,39,93,132,stop,"Python is a high-level, interpreted programming language. It was created in the late 1980s by Guido van Rossum and is known for its simplicity, readability, and versatility. Python is often used for web development, data analysis, machine learning, and automation. Its syntax is easy to learn and understand, making it a popular choice for beginners and experienced programmers alike. It's widely used in various industries, including science, finance, and education."
+What is the capital of France?,Easy,llama3.2:3b,1,9.74,0.01,9.3,42,69,111,stop,"The capital of France is Paris. It is the largest city in France and has been the country's capital since the 13th century. Paris is known for its iconic landmarks such as the Eiffel Tower, Notre-Dame Cathedral, and the Louvre Museum, making it one of the most famous and visited cities in the world."
+Define machine learning.,Easy,llama3.2:3b,1,10.89,0.01,9.5,39,80,119,stop,"Machine learning is a type of artificial intelligence (AI) that enables computers to learn from data without being explicitly programmed. It involves training algorithms on large datasets to enable them to make predictions, classify patterns, and improve their performance over time. Machine learning is used in various applications, including image recognition, natural language processing, and predictive analytics. It is a key technology driving innovation in AI and automation."
+How many days are in a leap year?,Easy,llama3.2:3b,1,9.5,0.01,9.3,44,65,109,stop,"There are 366 days in a leap year. This is 1 day more than a non-leap year, which has 365 days. Leap years occur every 4 years, when the extra day is added to the month of February, making it a 29-day month instead of the usual 28 days."
+How are you today?,Easy,llama3.2:3b,1,9.76,0.01,9.3,40,68,108,stop,"I'm a computer program, so I don't have emotions or feelings like humans do. I'm functioning properly and ready to assist with any questions or tasks you have. I don't have good or bad days, but I'm always here to help and provide information to the best of my abilities. How can I assist you today?"
+What is a variable in programming?,Easy,llama3.2:3b,1,11.62,0.01,9.5,42,87,129,stop,"In programming, a variable is a container that stores a value. It's a name given to a value that can be changed during the execution of a program. Variables allow you to store and manipulate data, making it easier to write and maintain code. They can be used to store and retrieve values, perform calculations, and make decisions based on data. Variables are a fundamental concept in programming and are used extensively in most programming languages."
+Convert 5 kilometers to miles.,Easy,llama3.2:3b,1,9.07,0.01,9.5,42,62,104,stop,"To convert 5 kilometers to miles, multiply 5 by 0.621371 (since 1 kilometer = 0.621371 miles). 
+
+5 km x 0.621371 = 3.10685 miles
+
+So, 5 kilometers is approximately 3.11 miles."
+What is HTTP?,Easy,llama3.2:3b,1,12.19,0.01,9.5,39,93,132,stop,"HTTP (Hypertext Transfer Protocol) is a communication protocol used for transferring data over the internet. It defines how devices communicate with each other to exchange information, such as web pages, images, and other data. HTTP is a request-response protocol, where a client (e.g., a web browser) sends a request to a server, and the server responds with the requested data. This protocol is the foundation of the web and is used by most websites."
+Name three primary colors.,Easy,llama3.2:3b,1,7.16,0.01,9.2,40,43,83,stop,"The three primary colors are:
+
+1. Red
+2. Blue
+3. Yellow
+
+These colors cannot be created by mixing other colors together, and they are the base colors used to create all other colors."
+What is the largest planet in our solar system?,Easy,llama3.2:3b,1,10.28,0.02,9.5,45,73,118,stop,"The largest planet in our solar system is Jupiter. It is a gas giant, with a diameter of approximately 142,984 kilometers (88,846 miles). Jupiter is more than 11 times the diameter of Earth and is the fifth planet from the Sun. It is known for its distinctive banded appearance and massive storms, such as the Great Red Spot."
+Explain how neural networks work.,Medium,llama3.2:3b,1,11.47,0.01,9.4,42,84,126,stop,"Neural networks are computer systems inspired by the human brain. They consist of layers of interconnected nodes (neurons) that process and transmit information. Each node receives input, applies a non-linear transformation, and sends the output to other nodes. Through training, the network learns to recognize patterns and make predictions based on data. The nodes adjust their connections to minimize errors, allowing the network to improve its performance over time."
+What is the difference between a list and a tuple in Python?,Medium,llama3.2:3b,1,11.89,0.01,9.3,48,87,135,stop,"In Python, a list and a tuple are both data structures that store multiple values. The main difference is that lists are mutable (can be modified), while tuples are immutable (cannot be changed). Lists use square brackets `[]`, while tuples use parentheses `()`. Lists are created with the `[]` syntax, while tuples are created with the `()` syntax. This makes lists more flexible, but tuples more efficient and safer."
+Why is the sky blue?,Medium,llama3.2:3b,1,10.84,0.01,9.2,41,76,117,stop,"The sky appears blue because of a phenomenon called Rayleigh scattering. When sunlight enters Earth's atmosphere, it encounters tiny molecules of gases such as nitrogen and oxygen. These molecules scatter the shorter, blue wavelengths of light more than the longer, red wavelengths, resulting in the blue color we see in the sky. This effect is more pronounced during the daytime when the sun is overhead."
+Describe how a hash table works.,Medium,llama3.2:3b,1,11.59,0.01,9.0,42,82,124,stop,"A hash table is a data structure that stores key-value pairs in an array using a hash function. The hash function maps a key to an index in the array. When a key-value pair is inserted, the hash function is applied to the key, and the resulting index is used to store the value. Lookups are fast because the hash function allows for direct access to the value at the calculated index."
+Explain the advantages of using Git.,Medium,llama3.2:3b,1,11.4,0.01,9.8,43,87,130,stop,"Git offers several advantages, including:
+
+* Version control: tracks changes to code and allows for easy collaboration and rollback.
+* Distributed architecture: allows for multiple developers to work on the same project simultaneously.
+* Scalability: supports large projects and teams.
+* Flexibility: allows for branching and merging, making it easy to experiment and iterate.
+* Security: provides a secure record of changes, reducing the risk of data loss or corruption."
+How does HTTPS keep data secure?,Medium,llama3.2:3b,1,11.08,0.01,9.6,42,83,125,stop,"HTTPS (Hypertext Transfer Protocol Secure) keeps data secure by encrypting it with SSL/TLS (Secure Sockets Layer/Transport Layer Security) protocols. This ensures that data transmitted between a user's device and a website is scrambled and unreadable to unauthorized parties. Only the intended recipient can decrypt the data, making it difficult for hackers to intercept and access sensitive information, such as passwords and financial data."
+Summarize the causes of the French Revolution.,Medium,llama3.2:3b,1,11.96,0.01,9.9,45,93,138,stop,"The French Revolution was caused by a combination of factors, including:
+
+* Financial crisis and burden of taxation
+* Social inequality and feudalism
+* Enlightenment ideas of liberty, equality, and fraternity
+* Food shortages and economic hardship
+* Absolutist monarchy and lack of representation
+* Enlightenment thinkers' influence on the educated elite
+
+These factors created a perfect storm of discontent, leading to widespread protests and ultimately, the overthrow of the monarchy in 1789."
+What is the difference between supervised and unsupervised learning?,Medium,llama3.2:3b,1,11.78,0.01,9.8,47,91,138,stop,"The main difference between supervised and unsupervised learning is the type of data used for training. In supervised learning, the algorithm is trained on labeled data, where the correct output is already known. In unsupervised learning, the algorithm is trained on unlabeled data, and it must find patterns or structure on its own. Supervised learning aims to make predictions, while unsupervised learning aims to discover hidden relationships or groupings in the data."
+How do vaccines train the immune system?,Medium,llama3.2:3b,1,11.15,0.01,9.7,43,84,127,stop,"Vaccines train the immune system by introducing a small, harmless piece of a pathogen, such as a protein or sugar, to the body. The immune system recognizes this foreign substance and mounts a response, producing antibodies and immune cells to fight it. This process simulates a real infection, allowing the immune system to learn how to recognize and defend against the pathogen, providing long-term protection against future infections."
+What are the main reasons people switch from Windows to Linux?,Medium,llama3.2:3b,1,11.6,0.01,9.8,47,88,135,stop,"The main reasons people switch from Windows to Linux include:
+
+* Cost: Linux is free and open-source.
+* Security: Linux is considered more secure than Windows.
+* Customization: Linux offers more control over system settings and software.
+* Stability: Linux is known for its stability and reliability.
+* Community support: Linux has a large and active community for support and updates.
+* Performance: Linux can be faster and more efficient than Windows."
+Design an optimized machine learning algorithm.,Complex,llama3.2:3b,1,15.79,0.01,8.6,42,115,157,stop,"Optimized Machine Learning Algorithm:
+
+1. **Data Preprocessing**: Normalize and feature-engineer data.
+2. **Model Selection**: Choose a suitable algorithm (e.g., Random Forest, Gradient Boosting).
+3. **Hyperparameter Tuning**: Use Grid Search or Bayesian Optimization.
+4. **Model Evaluation**: Use metrics (e.g., accuracy, F1-score) and cross-validation.
+5. **Model Deployment**: Train and deploy the best model in a production-ready environment.
+6. **Continuous Monitoring**: Regularly update and retrain the model to maintain performance."
+Implement a Python function that finds the longest palindromic substring and explain its time complexity.,Complex,llama3.2:3b,1,19.92,0.01,9.4,54,162,216,stop,"def longest_palindromic_substring(s):
+    def expand_around_center(s, left, right):
+        while left >= 0 and right < len(s) and s[left] == s[right]:
+            left -= 1
+            right += 1
+        return s[left + 1:right]
+
+    longest = """"
+    for i in range(len(s)):
+        # Odd length palindrome
+        odd_palindrome = expand_around_center(s, i, i)
+        # Even length palindrome
+        even_palindrome = expand_around_center(s, i, i + 1)
+        longest = max([longest, odd_palindrome, even_palindrome], key=len)
+
+    return longest
+
+# Time complexity: O(n^2) where n is the length of the string."
+Compare REST and GraphQL for a large mobile app backend and recommend one.,Complex,llama3.2:3b,1,11.87,0.01,8.8,49,81,130,stop,"For a large mobile app backend, GraphQL is a better choice. It provides a flexible, schema-driven API that can handle complex queries and reduce data duplication. REST's rigid, resource-based approach can lead to over-fetching and under-fetching. GraphQL's advantages include improved performance, reduced data transfer, and better scalability. Its flexibility also allows for more efficient caching and better support for real-time updates."
+"Debug this code: def add(a, b): return a - b",Complex,llama3.2:3b,1,10.82,0.01,7.3,49,59,108,stop,"The issue with this code is that it's subtracting `b` from `a` instead of adding them. The correct code should be:
+
+```python
+def add(a, b): return a + b
+```
+
+This will return the sum of `a` and `b`."
+Develop a plan to migrate a monolithic application to microservices.,Complex,llama3.2:3b,1,15.18,0.01,8.3,48,104,152,stop,"To migrate a monolithic application to microservices, follow these steps:
+
+1. Identify and isolate critical components.
+2. Design and implement microservices architecture.
+3. Develop a service catalog and API gateway.
+4. Implement communication protocols (e.g., REST, gRPC).
+5. Gradually decompose monolithic code into microservices.
+6. Test and validate each microservice individually.
+7. Monitor and analyze performance, security, and scalability.
+8. Roll out new services incrementally, ensuring minimal disruption."
+Analyze the trade-offs between SQL and NoSQL databases for a real-time analytics platform.,Complex,llama3.2:3b,1,14.4,0.01,7.2,53,83,136,stop,"For a real-time analytics platform, SQL databases offer structured data, scalability, and ACID compliance, but can be slower and less flexible. NoSQL databases provide flexibility, high scalability, and real-time data processing, but may sacrifice data consistency and structure. A hybrid approach combining SQL and NoSQL databases can balance trade-offs, leveraging SQL for structured data and NoSQL for unstructured or high-velocity data."
+Evaluate the pros and cons of using transformers versus RNNs for time-series forecasting.,Complex,llama3.2:3b,1,12.65,0.01,9.2,52,90,142,stop,"Transformers and RNNs are both effective for time-series forecasting. Transformers offer advantages in handling long-range dependencies and parallelization, making them suitable for large datasets. RNNs, on the other hand, are better suited for sequential data with strong temporal dependencies. Transformers are more computationally expensive, while RNNs can be more memory-intensive. Choose RNNs for datasets with strong temporal dependencies and transformers for large, long-range dependencies."
+"Plan a three-day study schedule covering calculus, linear algebra, and probability, balancing difficulty and revision time.",Complex,llama3.2:3b,1,16.44,0.01,8.8,56,119,175,stop,"Here's a suggested 3-day study schedule:
+
+Day 1: Review Calculus basics (limits, derivatives, integrals) and Linear Algebra (vector spaces, linear transformations). Allocate 2 hours for calculus and 2 hours for linear algebra.
+
+Day 2: Focus on Probability (probability distributions, Bayes' theorem). Spend 2 hours on probability and 1 hour on reviewing calculus and linear algebra.
+
+Day 3: Practice problems and past exams for all three subjects. Allocate 2 hours for calculus, 2 hours for linear algebra, and 2 hours for probability."
+Prove that the square root of 2 is irrational.,Complex,llama3.2:3b,1,23.81,0.01,9.0,47,192,239,stop,"To prove that the square root of 2 is irrational, assume it's rational, i.e., √2 = a/b, where a and b are integers and b ≠ 0. Square both sides: 2 = a^2/b^2. Multiply both sides by b^2: 2b^2 = a^2. Since 2b^2 is even, a^2 must also be even. This implies a is even, so a = 2k for some integer k. Substitute a: 2 = (2k)^2/b^2, which simplifies to 2 = 4k^2/b^2. Divide both sides by 2: 1 = 2k^2/b^2. Since 1 is rational, this implies b^2 is even, and thus b is even. This contradicts the assumption that b is odd. Therefore, √2 is irrational."
+Write a Python class for an LRU cache and describe its complexity.,Complex,llama3.2:3b,1,19.86,0.01,9.1,49,156,205,stop,"class LRUCache:
+    def __init__(self, capacity):
+        self.capacity = capacity
+        self.cache = {}
+
+    def get(self, key):
+        if key in self.cache:
+            value = self.cache[key]
+            del self.cache[key]
+            self.cache[key] = value  # move to end
+            return value
+        return -1
+
+    def put(self, key, value):
+        if key in self.cache:
+            del self.cache[key]
+        elif len(self.cache) >= self.capacity:
+            self.cache.popitem(last=False)  # remove oldest item
+        self.cache[key] = value
+
+# Complexity:
+# - get: O(1) (constant time)
+# - put: O(1) (constant time)"

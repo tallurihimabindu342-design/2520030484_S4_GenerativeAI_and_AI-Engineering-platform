@@ -1,0 +1,31 @@
+question,expected_complexity
+"What is Python?",Easy
+"What is the capital of France?",Easy
+"Define machine learning.",Easy
+"How many days are in a leap year?",Easy
+"How are you today?",Easy
+"What is a variable in programming?",Easy
+"Convert 5 kilometers to miles.",Easy
+"What is HTTP?",Easy
+"Name three primary colors.",Easy
+"What is the largest planet in our solar system?",Easy
+"Explain how neural networks work.",Medium
+"What is the difference between a list and a tuple in Python?",Medium
+"Why is the sky blue?",Medium
+"Describe how a hash table works.",Medium
+"Explain the advantages of using Git.",Medium
+"How does HTTPS keep data secure?",Medium
+"Summarize the causes of the French Revolution.",Medium
+"What is the difference between supervised and unsupervised learning?",Medium
+"How do vaccines train the immune system?",Medium
+"What are the main reasons people switch from Windows to Linux?",Medium
+"Design an optimized machine learning algorithm.",Complex
+"Implement a Python function that finds the longest palindromic substring and explain its time complexity.",Complex
+"Compare REST and GraphQL for a large mobile app backend and recommend one.",Complex
+"Debug this code: def add(a, b): return a - b",Complex
+"Develop a plan to migrate a monolithic application to microservices.",Complex
+"Analyze the trade-offs between SQL and NoSQL databases for a real-time analytics platform.",Complex
+"Evaluate the pros and cons of using transformers versus RNNs for time-series forecasting.",Complex
+"Plan a three-day study schedule covering calculus, linear algebra, and probability, balancing difficulty and revision time.",Complex
+"Prove that the square root of 2 is irrational.",Complex
+"Write a Python class for an LRU cache and describe its complexity.",Complex
